@@ -1,0 +1,47 @@
+# EditorConfig configuration file
+# See https://editorconfig.org for more details
+
+# Top-most EditorConfig file
+root = true
+
+# Default settings for all files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+tab_width = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# TypeScript-specific settings
+[*.{ts,tsx}]
+indent_style = space
+indent_size = 2
+tab_width = 2
+# Prefer single quotes for TypeScript
+quote_type = double
+
+# JSON files (common in TypeScript projects)
+[*.json]
+indent_style = space
+indent_size = 2
+
+# YAML files
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+# HTML files
+[*.html]
+indent_style = space
+indent_size = 2
+
+# CSS files (if applicable)
+[*.{css,scss,sass}]
+indent_style = space
+indent_size = 2

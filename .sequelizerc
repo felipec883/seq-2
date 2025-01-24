@@ -1,0 +1,7 @@
+const path = require("path");
+module.exports = {
+  config: path.resolve("dist/config/config.js"), // Transpiled config path
+  "models-path": path.resolve("dist/models"), // Transpiled models path
+  "migrations-path": path.resolve("dist/migrations"), // Transpiled migrations path
+  "seeders-path": path.resolve("dist/seeders"), // Transpiled seeders path
+};
