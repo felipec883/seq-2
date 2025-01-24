@@ -1,5 +1,5 @@
 import { Dialect } from "sequelize";
-import { DATABASE, DB_PASSWORD, DB_PORT } from "../common/constants";
+import { DATABASE, DB_PASSWORD, DB_PORT } from "../common/constants.js";
 const config = {
   development: {
     username: "postgres",

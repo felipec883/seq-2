@@ -1,3 +1,3 @@
 import Express from "express";
 
-const route = Express();
+const router = Express();

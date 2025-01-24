@@ -112,7 +112,7 @@
       /* Skip type checking all .d.ts files. */
     }
   },
-  "include": ["src/**/*.ts"], // ".sequelizerc"
+  "include": ["src/**/*.ts", ".sequelizerc.cjs.mjs"], // ".sequelizerc"
   "exclude": ["node_modules", "dist"]
   // Base directory for path resolution
   // Map @types/* to the types folder
