@@ -1,6 +1,7 @@
 import { Dialect } from "sequelize";
 import { DATABASE, DB_PASSWORD, DB_PORT } from "../common/constants.js";
-const config = {
+import "dotenv/config";
+module.exports = {
   development: {
     username: "postgres",
     password: DB_PASSWORD,
@@ -24,5 +25,3 @@ const config = {
     dialect: "postgres" as Dialect,
   },
 };
-
-export default config;
